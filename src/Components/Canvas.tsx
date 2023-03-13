@@ -11,49 +11,49 @@ const Canvas = () => {
   const handleContextMenu: (event: React.MouseEvent) => void = (
     event: React.MouseEvent,
   ) => {
-    console.log('handleContextMenu triggered - NOT YET IMPLMENTED');
+    console.warn('handleContextMenu triggered - NOT YET IMPLMENTED');
     return;
   };
 
   const handlePointerDown: (event: React.PointerEvent) => void = (
     event: React.PointerEvent,
   ) => {
-    console.log('handlePointerDown triggered - NOT YET IMPLMENTED');
+    console.warn('handlePointerDown triggered - NOT YET IMPLMENTED');
     return;
   };
 
   const handleDoubleClick: (event: React.MouseEvent) => void = (
     event: React.MouseEvent,
   ) => {
-    console.log('handleDoubleClick triggered - NOT YET IMPLMENTED');
+    console.warn('handleDoubleClick triggered - NOT YET IMPLMENTED');
     return;
   };
 
   const handlePointerMove: (event: React.PointerEvent) => void = (
     event: React.PointerEvent,
   ) => {
-    console.log('handlePointerMove triggered - NOT YET IMPLMENTED');
+    console.warn('handlePointerMove triggered - NOT YET IMPLMENTED');
     return;
   };
 
   const handlePointerUp: (event: React.PointerEvent) => void = (
     event: React.PointerEvent,
   ) => {
-    console.log('handlePointerUp triggered - NOT YET IMPLMENTED');
+    console.warn('handlePointerUp triggered - NOT YET IMPLMENTED');
     return;
   };
 
   const removePointer: (event: React.PointerEvent) => void = (
     event: React.PointerEvent,
   ) => {
-    console.log('removePointer triggered - NOT YET IMPLMENTED');
+    console.warn('removePointer triggered - NOT YET IMPLMENTED');
     return;
   };
 
   const handleTouchMove: (
     event: React.TouchEvent<HTMLCanvasElement>,
   ) => void = (event: React.TouchEvent<HTMLCanvasElement>) => {
-    console.log('handleTouchMove triggered - NOT YET IMPLMENTED');
+    console.warn('handleTouchMove triggered - NOT YET IMPLMENTED');
     return;
   };
 
