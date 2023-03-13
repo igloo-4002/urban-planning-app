@@ -1,14 +1,18 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import AppStateContext from './Context/AppStateContext';
+import Canvas from './Components/Canvas';
+import { AppState } from './types';
+import { getDefaultAppState } from './defaults';
 
 function App() {
-  const canvasRef = useRef<HTMLCanvasElement>(null);
-  const appState = useState(null);
+  const [appState, setAppState] = useState<AppState>(getDefaultAppState());
 
   return (
-    <AppStateContext.Provider value={appState}>
+    <AppStateContext.Provider
+      value={{ context: appState, setContext: setAppState }}
+    >
       <div className="flex items-center justify-center">
-        <canvas ref={canvasRef} />
+        <Canvas />
       </div>
     </AppStateContext.Provider>
   );
